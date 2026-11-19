@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "pins": {
+    "base": "0ed1bfd108390f280433ac304c0c3b8922551d27",
+    "entries": {
+      "sni/777-icon-fallbacks": "e25cd55a7a7844e165f319c5d54fa861f9e92392",
+      "sni/777-icon-lookup": "8ffc2f37d94e4f485ecdb98969dc0bc7c5ab8740",
+      "sni/777-pixmap-rendering": "513ecd8c5a024649751de19bd1cf985587bb31ea",
+      "sni/category-default": "03ef1ec661a7b6f5d06e19bf55597e93f2cfd66d",
+      "sni/context-menu": "9808a738f0269d0126c258ff846b301e76ab0d8c",
+      "sni/fix-default-sort": "97ae926d561b44cdb44def7e87d27b7e53941798",
+      "sni/icon-theme-path-updates": "28182fbcb29173d9e11ff554da32fc225d2c3739",
+      "sni/lenient-status": "4855373356760959d9ec9b73649b777503128ee6",
+      "sni/overlay-pixmaps": "d67b189db13fca6c04371d1b7961ce42690a0e2a",
+      "sni/quiet-missing-optional-props": "3c21a28d99cbb26328076ed7a9fe63ce77925b5c",
+      "sni/validate-icon-pixmaps": "a3d446baca8cbb0147d6eb3f1b7a7733c772dda2",
+      "sni/watcher-address": "51cbae119212ca364774150fe08369e40a5de852",
+      "sni/watcher-unregister-match": "b974fe08192b7daf9070de71ae92737b96ce1e1d"
+    }
+  },
+  "build": {
+    "protocol": 1,
+    "generated": "2026-11-19T21:05:06.309866885+00:00",
+    "base": "0ed1bfd108390f280433ac304c0c3b8922551d27",
+    "commit": "a2c8c4f1eb4b9fe4de72c559139bdf37e9caa969",
+    "pre_provenance_commit": "a2c8c4f1eb4b9fe4de72c559139bdf37e9caa969",
+    "tree": "2e00cd8b56f62c0bbbf60cebd9e5effc716515ff",
+    "built_tree": "2e00cd8b56f62c0bbbf60cebd9e5effc716515ff",
+    "previous_tree": null,
+    "tree_changed": true,
+    "conflicts": 4,
+    "manifest_entries": [
+      {
+        "name": "sni/watcher-unregister-match",
+        "kind": "branch",
+        "source": "mine:sni/watcher-unregister-match",
+        "pin": "b974fe08192b7daf9070de71ae92737b96ce1e1d"
+      },
+      {
+        "name": "sni/validate-icon-pixmaps",
+        "kind": "branch",
+        "source": "mine:sni/validate-icon-pixmaps",
+        "pin": "a3d446baca8cbb0147d6eb3f1b7a7733c772dda2"
+      },
+      {
+        "name": "sni/lenient-status",
+        "kind": "branch",
+        "source": "mine:sni/lenient-status",
+        "pin": "4855373356760959d9ec9b73649b777503128ee6"
+      },
+      {
+        "name": "sni/category-default",
+        "kind": "branch",
+        "source": "mine:sni/category-default",
+        "pin": "03ef1ec661a7b6f5d06e19bf55597e93f2cfd66d"
+      },
+      {
+        "name": "sni/fix-default-sort",
+        "kind": "branch",
+        "source": "mine:sni/fix-default-sort",
+        "pin": "97ae926d561b44cdb44def7e87d27b7e53941798"
+      },
+      {
+        "name": "sni/quiet-missing-optional-props",
+        "kind": "branch",
+        "source": "mine:sni/quiet-missing-optional-props",
+        "pin": "3c21a28d99cbb26328076ed7a9fe63ce77925b5c"
+      },
+      {
+        "name": "sni/context-menu",
+        "kind": "branch",
+        "source": "mine:sni/context-menu",
+        "pin": "9808a738f0269d0126c258ff846b301e76ab0d8c"
+      },
+      {
+        "name": "sni/icon-theme-path-updates",
+        "kind": "branch",
+        "source": "mine:sni/icon-theme-path-updates",
+        "pin": "28182fbcb29173d9e11ff554da32fc225d2c3739",
+        "fixup": "5ec315a575d264e8534263b16d968fa0255c4576"
+      },
+      {
+        "name": "sni/overlay-pixmaps",
+        "kind": "branch",
+        "source": "mine:sni/overlay-pixmaps",
+        "pin": "d67b189db13fca6c04371d1b7961ce42690a0e2a"
+      },
+      {
+        "name": "sni/777-icon-lookup",
+        "kind": "branch",
+        "source": "mine:sni/777-icon-lookup",
+        "pin": "8ffc2f37d94e4f485ecdb98969dc0bc7c5ab8740"
+      },
+      {
+        "name": "sni/777-icon-fallbacks",
+        "kind": "branch",
+        "source": "mine:sni/777-icon-fallbacks",
+        "pin": "e25cd55a7a7844e165f319c5d54fa861f9e92392"
+      },
+      {
+        "name": "sni/777-pixmap-rendering",
+        "kind": "branch",
+        "source": "mine:sni/777-pixmap-rendering",
+        "pin": "513ecd8c5a024649751de19bd1cf985587bb31ea",
+        "fixup": "f870af44d39889c30896b6e2603426de95f65cc9"
+      },
+      {
+        "name": "sni/watcher-address",
+        "kind": "branch",
+        "source": "mine:sni/watcher-address",
+        "pin": "51cbae119212ca364774150fe08369e40a5de852"
+      }
+    ],
+    "results": [
+      {
+        "name": "sni/watcher-unregister-match",
+        "oid": "b974fe08192b7daf9070de71ae92737b96ce1e1d",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/validate-icon-pixmaps",
+        "oid": "a3d446baca8cbb0147d6eb3f1b7a7733c772dda2",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/lenient-status",
+        "oid": "4855373356760959d9ec9b73649b777503128ee6",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/category-default",
+        "oid": "03ef1ec661a7b6f5d06e19bf55597e93f2cfd66d",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "c10b0883eed845d572b0c4ee0a4e40929458b9ef"
+        ]
+      },
+      {
+        "name": "sni/fix-default-sort",
+        "oid": "97ae926d561b44cdb44def7e87d27b7e53941798",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/quiet-missing-optional-props",
+        "oid": "3c21a28d99cbb26328076ed7a9fe63ce77925b5c",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/context-menu",
+        "oid": "9808a738f0269d0126c258ff846b301e76ab0d8c",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/icon-theme-path-updates",
+        "oid": "28182fbcb29173d9e11ff554da32fc225d2c3739",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "f847d8f63daadd009bb08937c4346d08e2920297"
+        ],
+        "fixup": "5ec315a575d264e8534263b16d968fa0255c4576"
+      },
+      {
+        "name": "sni/overlay-pixmaps",
+        "oid": "d67b189db13fca6c04371d1b7961ce42690a0e2a",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/777-icon-lookup",
+        "oid": "8ffc2f37d94e4f485ecdb98969dc0bc7c5ab8740",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "sni/777-icon-fallbacks",
+        "oid": "e25cd55a7a7844e165f319c5d54fa861f9e92392",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "39df5dc5d6c34ab4f3d3a69709804d285bbb2717",
+          "6c89f3edb003c655b0df2862ec306fecef792302"
+        ]
+      },
+      {
+        "name": "sni/777-pixmap-rendering",
+        "oid": "513ecd8c5a024649751de19bd1cf985587bb31ea",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "27083e76fd5ced39a0b5bbb5f7dc5b2657a47a34"
+        ],
+        "fixup": "f870af44d39889c30896b6e2603426de95f65cc9"
+      },
+      {
+        "name": "sni/watcher-address",
+        "oid": "51cbae119212ca364774150fe08369e40a5de852",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      }
+    ]
+  }
+}

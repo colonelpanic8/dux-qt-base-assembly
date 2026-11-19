@@ -1,0 +1,13 @@
+diff --git a/src/services/status_notifier/item.cpp b/src/services/status_notifier/item.cpp
+index 1eba6dc..2afcc2f 100644
+--- a/src/services/status_notifier/item.cpp
++++ b/src/services/status_notifier/item.cpp
+@@ -175,7 +175,7 @@ QPixmap StatusNotifierItem::createPixmap(const QSize& size) const {
+ 		if (icon == nullptr) return QPixmap();
+ 
+ 		return QPixmap::fromImage(
+-		    icon->createImage().scaled(size, Qt::IgnoreAspectRatio, Qt::SmoothTransformation)
++		    icon->createImage().scaled(size, Qt::KeepAspectRatio, Qt::SmoothTransformation)
+ 		);
+ 	};
+ 

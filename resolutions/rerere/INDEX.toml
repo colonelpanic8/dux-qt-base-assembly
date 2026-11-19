@@ -1,0 +1,32 @@
+# Informational index of tracked rerere pairs: which entry's merge
+# produced which conflict hash. Auditability only, never load-bearing;
+# replay uses the pair directories, verification uses the lock tree.
+[[resolution]]
+entry = "sni/777-icon-fallbacks"
+hash = "39df5dc5d6c34ab4f3d3a69709804d285bbb2717"
+paths = ["src/core/iconimageprovider.cpp"]
+recorded = "2026-11-19T21:04:53.753794670+00:00"
+
+[[resolution]]
+entry = "sni/777-icon-fallbacks"
+hash = "6c89f3edb003c655b0df2862ec306fecef792302"
+paths = ["src/services/status_notifier/item.cpp"]
+recorded = "2026-11-19T21:04:53.753798894+00:00"
+
+[[resolution]]
+entry = "sni/777-pixmap-rendering"
+hash = "27083e76fd5ced39a0b5bbb5f7dc5b2657a47a34"
+paths = ["src/services/status_notifier/item.cpp"]
+recorded = "2026-11-19T21:05:06.177695349+00:00"
+
+[[resolution]]
+entry = "sni/category-default"
+hash = "c10b0883eed845d572b0c4ee0a4e40929458b9ef"
+paths = ["src/services/status_notifier/item.hpp"]
+recorded = "2026-11-19T21:04:07.918834999+00:00"
+
+[[resolution]]
+entry = "sni/icon-theme-path-updates"
+hash = "f847d8f63daadd009bb08937c4346d08e2920297"
+paths = ["src/dbus/properties.cpp"]
+recorded = "2026-11-19T21:04:35.596600478+00:00"
